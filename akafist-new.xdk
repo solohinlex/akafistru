@@ -1,0 +1,341 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "creationData": {
+      "projectTypeName": "com.intel.xdk.projecttype.webapp",
+      "src": "webapp/template-blank-ad-project/sample.zip",
+      "projectGuid": "d6884a2a-b9f8-4f65-8b5c-dd788e8a6508",
+      "lastModifiedDate": 1496391169589,
+      "creationDate": 1496231215587
+    },
+    "sourceDirectory": "www",
+    "startFile": "index.html",
+    "projectFiles": {
+      "xdk-publish-meta-data.json": {
+        "settings": {
+          "project": {
+            "XDK-not-deployed": "True"
+          }
+        }
+      }
+    },
+    "projectDirectories": {},
+    "libraries": [],
+    "serviceMethods": [],
+    "cordovaPluginsDirectory": "plugins",
+    "cordovaPlugins": [],
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "W3C on Crosswalk",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "21",
+          "android-installLocation": "auto",
+          "Fullscreen": false,
+          "Orientation": "default",
+          "android-signed": true
+        },
+        "isActive_": true,
+        "certificateId_": "WTdR0yM760yxAxim7ORRwg2",
+        "cordovaCLIVersion_": "6.2.0",
+        "crosswalkVersion_": "19",
+        "appName_": "Акафист.ru",
+        "appID_": "ru.akafist",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*",
+            "market:*"
+          ],
+          "navigation": []
+        },
+        "icons_": [
+          {
+            "density": "ldpi",
+            "relPath": "package-assets/android/mipmap-ldpi/ic_launcher.png",
+            "width": 36,
+            "height": 36
+          },
+          {
+            "density": "mdpi",
+            "relPath": "package-assets/android/mipmap-mdpi/ic_launcher.png",
+            "width": 48,
+            "height": 48
+          },
+          {
+            "density": "xhdpi",
+            "relPath": "package-assets/android/mipmap-xhdpi/ic_launcher.png",
+            "width": 96,
+            "height": 96
+          },
+          {
+            "density": "hdpi",
+            "relPath": "package-assets/android/mipmap-hdpi/ic_launcher.png",
+            "width": 72,
+            "height": 72
+          }
+        ],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.4",
+        "appVersionCode_": "4",
+        "appDescription_": "Сборник канонов и акафистов с сайта Akafist.ru",
+        "appAuthor_": "Aleksey Solohin",
+        "signed_": true
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "W3C on Cordova",
+        "name_": "iOS",
+        "preferences_": {
+          "exit-on-suspend": false,
+          "deployment-target": "8.0",
+          "ios-configuration": "production",
+          "Fullscreen": false,
+          "Orientation": "default"
+        },
+        "isActive_": true,
+        "certificateId_": "8pJPxhWkkkWyAMUmc1wkSQ2",
+        "cordovaCLIVersion_": "6.2.0",
+        "crosswalkVersion_": "19",
+        "appName_": "Акафист.ru",
+        "appID_": "ru.akafist",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*",
+            "itms:*",
+            "itms-apps:*"
+          ],
+          "navigation": []
+        },
+        "icons_": [
+          {
+            "relPath": "package-assets/ios/AppIcon.appiconset/Icon-App-29x29@1x.png",
+            "width": 29,
+            "height": 29
+          },
+          {
+            "relPath": "package-assets/ios/AppIcon.appiconset/Icon-App-29x29@2x.png",
+            "width": 58,
+            "height": 58
+          },
+          {
+            "relPath": "package-assets/ios/AppIcon.appiconset/Icon-App-29x29@3x.png",
+            "width": 87,
+            "height": 87
+          },
+          {
+            "relPath": "package-assets/ios/AppIcon.appiconset/Icon-App-60x60@1x.png",
+            "width": 60,
+            "height": 60
+          },
+          {
+            "relPath": "package-assets/ios/AppIcon.appiconset/Icon-App-60x60@2x.png",
+            "width": 120,
+            "height": 120
+          },
+          {
+            "relPath": "package-assets/ios/AppIcon.appiconset/Icon-App-60x60@3x.png",
+            "width": 180,
+            "height": 180
+          },
+          {
+            "relPath": "package-assets/ios/AppIcon.appiconset/Icon-App-76x76@1x.png",
+            "width": 76,
+            "height": 76
+          },
+          {
+            "relPath": "package-assets/ios/AppIcon.appiconset/Icon-App-76x76@2x.png",
+            "width": 152,
+            "height": 152
+          },
+          {
+            "relPath": "package-assets/ios/AppIcon.appiconset/Icon-App-40x40@1x.png",
+            "width": 40,
+            "height": 40
+          },
+          {
+            "relPath": "package-assets/ios/AppIcon.appiconset/Icon-App-40x40@2x.png",
+            "width": 80,
+            "height": 80
+          },
+          {
+            "relPath": "package-assets/ios/AppIcon.appiconset/Icon-App-57x57@1x.png",
+            "width": 57,
+            "height": 57
+          },
+          {
+            "relPath": "package-assets/ios/AppIcon.appiconset/Icon-App-57x57@2x.png",
+            "width": 114,
+            "height": 114
+          },
+          {
+            "relPath": "package-assets/ios/AppIcon.appiconset/Icon-App-72x72@1x.png",
+            "width": 72,
+            "height": 72
+          },
+          {
+            "relPath": "package-assets/ios/AppIcon.appiconset/Icon-App-72x72@2x.png",
+            "width": 144,
+            "height": 144
+          },
+          {
+            "relPath": "package-assets/ios/AppIcon.appiconset/Icon-Small-50x50@1x.png",
+            "width": 50,
+            "height": 50
+          },
+          {
+            "relPath": "package-assets/ios/AppIcon.appiconset/Icon-Small-50x50@2x.png",
+            "width": 100,
+            "height": 100
+          },
+          {
+            "relPath": "package-assets/ios/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png",
+            "width": 167,
+            "height": 167
+          }
+        ],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "iosProvs_": [
+          {
+            "relPath": "package-assets/Akafist.mobileprovision",
+            "type": "production"
+          }
+        ],
+        "appVersion_": "0.0.4",
+        "appVersionCode_": "4",
+        "appDescription_": "Сборник канонов и акафистов с сайта Akafist.ru",
+        "appAuthor_": "Aleksey Solohin"
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "W3C on Cordova",
+        "name_": "Windows8",
+        "preferences_": {
+          "windows-publisher-display-name": "",
+          "windows-publisher-id": "",
+          "Fullscreen": false,
+          "Orientation": "portrait"
+        },
+        "isActive_": false,
+        "certificateId_": "",
+        "cordovaCLIVersion_": "6.2.0",
+        "crosswalkVersion_": "19",
+        "appName_": "akafist-new",
+        "appID_": "xdk.intel.template",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*"
+          ],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.0.1",
+        "appVersionCode_": "1",
+        "appDescription_": "Intel XDK template",
+        "appAuthor_": "Intel XDK"
+      },
+      "WebApp": {
+        "platform_": "webapp",
+        "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+        "isActive_": true,
+        "certificateId_": "",
+        "appName_": "Intel XDK Template",
+        "appID_": "xdk.intel.template",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1",
+        "appDescription_": "Intel XDK template",
+        "appAuthor_": "Intel XDK"
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+        "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+        "isActive_": true,
+        "certificateId_": "",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [
+          {
+            "relPath": "package-assets/128.png",
+            "width": 128,
+            "height": 128
+          },
+          {
+            "relPath": "package-assets/16.png",
+            "width": 16,
+            "height": 16
+          }
+        ],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appName_": "ru.akafist",
+        "appID_": "xdk.intel.template",
+        "appVersion_": "0.0.3",
+        "appDescription_": "Акафист.ru",
+        "appAuthor_": "Intel XDK"
+      }
+    },
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {},
+    "projectTags": [
+      "XDK-disallow-legacy-whitelist"
+    ],
+    "testDirectory": "test"
+  }
+}

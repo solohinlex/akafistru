@@ -1,0 +1,6 @@
+{
+  "name": "akafist-new",
+  "dependencies": {
+    "bootstrap": "3.3.7"
+  }
+}
